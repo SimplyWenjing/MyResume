@@ -1,12 +1,34 @@
-.page{
+#content-container{
 	width: 100%;
 	margin: 0 auto;
-	border:1px solid black;
-	
+	border: 1px solid black;	
+}
+
+#home{
+	width: 40%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid red;
+	text-align: center;
+
 }
 #vicky-photo{
 	width: 150px;
 	height: 150px;
 	border-radius: 75px;
 	border: 4px solid #ddd;
+}
+
+#show-list li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+	border: 1px solid green;
+}
+#show-list li:nth-child(1){
+	margin-left: 0px;
+
 }
